@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Jonas Budelmann' => 'jonas.budelmann@gmail.com' }
   s.social_media_url = "http://twitter.com/cloudkite"
 
-  s.source   = { :git => 'https://github.com/cloudkite/Masonry.git', :tag => "v#{s.version}" }
+  s.source   = { :git => 'https://github.com/love4soul/Masonry.git', :tag => "v#{s.version}" }
 
   s.description = %{
     Masonry is a light-weight layout framework which wraps AutoLayout with a nicer syntax.
@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.osx.frameworks = 'Foundation', 'AppKit'
 
   s.ios.deployment_target = '6.0' # minimum SDK with autolayout
+  s.tvos.deployment_target = '9.0'
   s.osx.deployment_target = '10.7' # minimum SDK with autolayout
   s.requires_arc = true
 end
